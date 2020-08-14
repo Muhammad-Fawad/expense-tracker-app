@@ -1,0 +1,47 @@
+.container {
+max-width: 400px;
+min-height: 450px;
+margin: 0 auto;
+background-color: #efefef;
+box-shadow: 0 0 10px gray;
+margin-top: 50px;
+padding:  15px 15px;
+background-color: brown;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.expense-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+
+.transaction-form input{
+width: 100%;
+margin-top: 10px 0;
+padding: 5px 5px;
+border: 0.5px solid black;
+text-decoration: none;
+}
+
+.transaction-list{
+ margin: 0;
+ list-style: none; 
+ padding: 0;
+}
+
+.transaction-list > li {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 10px gray;
+  margin: 5px 0;
+  background-color:white;
+  padding: 10px 5px;
+  border-radius:  4px;
+  text-decoration: cadetblue;
+  font-weight: bold;
+}
